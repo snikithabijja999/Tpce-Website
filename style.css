@@ -1,0 +1,126 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.headbox{
+    border: solid 2px;
+    height: 160px;
+    display: flex;
+}
+#box1,#box2{
+    border: solid 2px;
+    height:160px
+}
+#box1{
+    width: 160px;
+}
+#box2{
+    width: 1400px;
+}
+#clgname{
+    font-size: 40px;
+    color: black;
+    background-color: aquamarine;
+}
+#place{
+    font-size: 30px;
+    background-color: aquamarine;
+    height: 50px;
+}
+#naac{
+    background-color: aquamarine;
+    font-size: 30px;
+    height: 32px;
+}
+#name{
+    color: black;
+    font-size: 30px;
+    background-color: #72d8b6;
+    height: 30px;
+}
+#naav{
+    border: solid 2px white;
+    height: 40px;
+}
+ul li{
+    border: solid 1px white;
+    height: 40px;
+    width: 173px;
+    float: left;
+    text-align: center;
+    line-height: 40px;
+    background-color: #43e469;
+}
+ul{
+    list-style: none;
+}
+ul li a{
+    border:white;
+    color:black;
+    font-size: 20px;
+    text-decoration: none;
+}
+ul li ul li{
+    display: none;
+}
+ul li:hover ul li{
+    display: block;
+    border: solid 1px white;
+    font-weight: 20px;
+}
+ul li:hover{
+    background-color: #3fca3f;
+}
+.obox{
+    border: solid 2px ;
+    height: 450px;
+    display: flex;
+    justify-content: space-between;
+}
+#in1,#in2,#in3{
+    border: solid 2px;
+    height: 450px;
+    z-index: -1;
+}
+#in1{
+    width: 550px;
+    background-image: url(josh.jpg);
+    background-repeat: no-repeat;
+    background-size: 550px 450px;
+    animation-name: imgchange;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes imgchange {
+    20%{
+        background-image: url(jntuh\ logo.png);
+    }
+    40%{
+        background-image: url(marine.jpg);
+    }
+    60%{
+        background-image: url(clg\ arc.webp);
+    }
+    70%{
+        background-image: url(ame.jpg);
+    }
+    
+}
+#in2,#in3{
+width: 400px;
+background-color: #15e3a2;
+}
+#name1{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+}
+#pbox{
+    border: solid 2px;
+    height: 150px;
+
+}
+#plog{
+    height:100px ;
+    width: 300px;
+}
